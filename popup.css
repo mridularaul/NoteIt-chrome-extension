@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+#text {
+  padding: 0 10px;
+}
+#heading {
+  width: 100%;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 10px 1px 10px 1px; 
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+#logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+}
+
+#app, .app {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.summarySection {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+#sidebar {
+  width: 20%;
+  background-color: #f4f4f4;
+  padding: 10px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  align-items: center;
+}
+
+#notesListSection {
+  width: 80%;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#button, .button {
+  padding: 5px 5px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.deleteButton{
+  padding: 7px 7px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+.deleteButton:hover {
+  background-color: #e2e1e1;
+}
+
+#summarizeButton{
+  padding: 7px 7px;
+  background-color: #28a745;
+  border: 1px solid #218838;
+  margin: 10px 10px;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer; 
+}
+
+#summarizeButton:hover {
+  background-color: #218838;
+}
+
+#summarizeButton:disabled{
+  padding: 7px 7px;
+  background-color: #5da86d;
+  margin: 10px 10px;
+  color: white;
+  border-radius: 2px;  
+}
+
+#notebookList, #notes {
+  list-style: none;
+  padding: 0;
+}
+
+#notebookList li{
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+#notebookList li:hover {
+  background-color: #e2e1e1;
+}
+
+#notes li {
+  padding: 7px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.summary {
+  padding: 7px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  margin: 10px 10px;
+  border-radius: 4px;
+}
+
+.note-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.note-actions a {
+  text-decoration: none;
+  color: #28a745;
+}
+
+.note-actions .button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.note-actions input[type="text"] {
+  flex: 1;
+  margin-right: 10px;
+  padding: 4px 4px;
+}

@@ -1,0 +1,30 @@
+{
+    "name" : "NoteIt",
+    "version" : "0.0.1",
+    "manifest_version" : 3,
+    "action":{
+        "default_popup":"popup.html",
+        "default_icons":"assets/logo_128.png"
+    },
+    "icons":{
+        "128":"assets/logo_128.png",
+        "48":"assets/logo_48.png"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage",
+        "contextMenus",
+        "scripting"
+    ],
+    "content_scripts":[
+        {
+            "matches" : ["<all_urls>"],
+            "js" : ["contentScript.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "background":{
+        "service_worker":"background.js"
+    }
+}
