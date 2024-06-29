@@ -18,4 +18,4 @@ NoteIt is a powerful Chrome extension built using HTML, CSS and Javascript that 
 
 Check out this video demonstration to see NoteIt in action:
 
-<img src="https://github.com/mridularaul/NoteIt-chrome-extension/assets/150273334/38b02eb6-6d47-4d28-a190-4370dc7bc0f8" alt="Screen Recording"/>
+<img src="https://github.com/mridularaul/NoteIt-chrome-extension/assets/150273334/7236ce1b-781c-4a96-87cd-76b149001acc" alt="Screen Recording"/>
